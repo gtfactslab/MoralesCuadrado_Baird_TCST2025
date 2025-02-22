@@ -2,6 +2,10 @@
 
 Videos of the quadrotor flying may be seen UPDATE THIS ([here](https://www.youtube.com/watch?v=vQiQZZE2iDM))
 
+# Environment Setup
+1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
+2. Users may also use the environment.yml file to set up a conda environment with the necessary packages to run the code below
+
 # Quadrotor Code Instructions
 ## Preliminary
 1. Follow the instructions ([here](https://docs.px4.io/main/en/ros/ros2_comm.html)) to set up the PX4 Autopilot Stack, ROS2, Micro XRCE-DDS Agent & Client, and build a ROS2 workspace with the necessary px4 communication repos
