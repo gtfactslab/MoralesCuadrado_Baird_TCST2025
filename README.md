@@ -1,6 +1,6 @@
 # MoralesCuadrado_TCST2025
 
-Videos of the quadrotor flying may be seen ([here](https://www.youtube.com/watch?v=vQiQZZE2iDM))
+Videos of the quadrotor flying may be seen UPDATE THIS ([here](https://www.youtube.com/watch?v=vQiQZZE2iDM))
 
 # Quadrotor Code Instructions
 ## Preliminary
