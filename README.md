@@ -47,8 +47,7 @@ ros2 run quad_newton_raphson_flow nr_quad log1.lo
 source install/setup.bash
 ```
 2. Activate your conda environment in this same terminal with sourcing
-3.
-4. In *run_blimp_sim.py* there is a dictionary named **mapping** with names of controller/path pairs. Let the desired pair be called **ctrl_path_name** and run the simulation by: 
+3. In *run_blimp_sim.py* there is a dictionary named **mapping** with names of controller/path pairs. Let the desired pair be called **ctrl_path_name** and run the simulation by: 
 ```
 ros2 run blimp_mpc_fbl_nr run_blimp_sim hardware_<\**ctrl_path_name**\>_circle_horz log1.log
 ```
@@ -57,9 +56,3 @@ Please  UPDATE THESE: [cite this paper]() ([arxiv version here]()).
 
 ## Authors:
 Evanns G. Morales-Cuadrado, Luke Baird, Yorai Wardi, Samuel Coogan
-
-3. After sourcing and activating environment, run the file:
-```
-ros2 run newton_raphson_controller newton_raphson
-```
-4. When prompted, answer [0/1] whether in simulation or hardware.
