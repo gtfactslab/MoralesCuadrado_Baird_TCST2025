@@ -25,7 +25,7 @@ MicroXRCEAgent udp4 -p 8888
 
 ## Using The NR Controller Computation and Offboard Publisher
 1. The length of time the algorithm runs before the land sequence begins may be changed via the variable in the **\_\_init\_\_** function at the top:   **self.time_before_land**
-2. The reference path may be changed through the reffunc variable starting in line 400 of the nr_tracker_final.py file. New ones may be defined below in functions around line 646.
+2. The reference path may be changed through the **self.main_traj** variable
 3. The mass for the quadrotor may be changed for your specific hardware on the **elif not self.sim** statement in the **\_\_init\_\_** at the top. Don't change for simulation unless you change the simulation model explicitly.
 4. The thrust/throttle mapping may be changed for your specific hardware on the **get_throttle_command_from_force** and **get_force_from_throttle_command** functions. Don't change for simulation unless you change the simulation model explicitly.
 
@@ -35,6 +35,10 @@ MicroXRCEAgent udp4 -p 8888
 source install/setup.bash
 ```
 2. Activate your conda environment in this same terminal with sourcing
+3. Run the controller with the following command
+```
+ros2 run quad_newton_raphson_flow nr_quad log1.lo
+```
 
 # Blimp Code Instructions
 ## Running the Blimp Simulator
