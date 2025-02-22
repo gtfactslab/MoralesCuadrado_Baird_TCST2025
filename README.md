@@ -2,6 +2,7 @@
 
 Videos of the quadrotor flying may be seen ([here](https://www.youtube.com/watch?v=vQiQZZE2iDM))
 
+# Quadrotor Code Instructions
 ## Preliminary
 1. Follow the instructions ([here](https://docs.px4.io/main/en/ros/ros2_comm.html)) to set up the PX4 Autopilot Stack, ROS2, Micro XRCE-DDS Agent & Client, and build a ROS2 workspace with the necessary px4 communication repos
 2. In the same workspace with the communication folders as above, go to the /src/ folder and clone this repository
@@ -35,6 +36,18 @@ source install/setup.bash
 ```
 2. Activate your conda environment in this same terminal with sourcing
 
+# Blimp Code Instructions
+## Running the Blimp Simulator
+1. In a terminal tab, source the environment from the root of your ROS2 workspace: 
+```
+source install/setup.bash
+```
+2. Activate your conda environment in this same terminal with sourcing
+3.
+4. In *run_blimp_sim.py* there is a dictionary named **mapping** with names of controller/path pairs. Let the desired pair be called **ctrl_path_name** and run the simulation by: 
+```
+ros2 run blimp_mpc_fbl_nr run_blimp_sim hardware_<\**ctrl_path_name**\>_circle_horz log1.log
+```
 ## Citing this Work:
 Please  UPDATE THESE: [cite this paper]() ([arxiv version here]()).
 
