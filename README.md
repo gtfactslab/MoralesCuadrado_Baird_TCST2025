@@ -2,7 +2,7 @@
 
 Videos of the flights may be seen [here](https://gtvault-my.sharepoint.com/:f:/g/personal/egm9_gatech_edu/ErAufSEL_ERGgUuG29ZrxRoB3e-UGh8xZPvzzl00IKPSzg?e=fnIOC6)
 
-All data and some of our data analysis code may be seen [in this repo](https://github.com/evannsm/2025TCST_NRFlow_Data).
+All data and some data analysis code may be seen [in this repo](https://github.com/evannsm/2025TCST_NRFlow_Data).
 
 # Environment Setup
 1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
