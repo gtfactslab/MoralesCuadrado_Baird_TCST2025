@@ -1,6 +1,6 @@
 # MoralesCuadrado_TCST2025
 
-Videos of the flights may be seen [here](https://gtvault-my.sharepoint.com/:f:/g/personal/egm9_gatech_edu/ErAufSEL_ERGgUuG29ZrxRoB3e-UGh8xZPvzzl00IKPSzg?e=fnIOC6)
+Our demo video with shots from a variety of trajectories may be seen [here](https://youtu.be/vJrqh9OTfsI?feature=shared)
 
 All data and some data analysis code may be seen [in this repo](https://github.com/evannsm/2025TCST_NRFlow_Data).
 
