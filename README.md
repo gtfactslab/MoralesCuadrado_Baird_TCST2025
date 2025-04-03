@@ -1,7 +1,5 @@
 # MoralesCuadrado_TCST2025
 
-Our demo video with shots from a variety of trajectories may be seen [here](https://youtu.be/vJrqh9OTfsI?feature=shared)
-
 All data and some data analysis code may be seen [in this repo](https://github.com/evannsm/2025TCST_NRFlow_Data).
 
 # Environment Setup
