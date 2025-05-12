@@ -1,5 +1,4 @@
-# Code for the TCST 2025 Submission:
-# "Lightweight Tracking Control for Computationally Constrained Aerial Systems with Newton-Raphson Flow"
+# Code for the TCST 2025 Submission: "Lightweight Tracking Control for Computationally Constrained Aerial Systems with Newton-Raphson Flow"
 
 # Environment Setup
 1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
