@@ -1,4 +1,4 @@
-# MoralesCuadrado_TCST2025
+# Code for the TCST 2025 Submission:"Lightweight Tracking Control for Computationally Constrained Aerial Systems with Newton-Raphson Flow" by Evanns Morales-Cuadrado, Luke Baird, Yorai Wardi, and Samuel Coogan
 
 # Environment Setup
 1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
