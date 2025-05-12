@@ -1,7 +1,5 @@
 # MoralesCuadrado_TCST2025
 
-All data and some data analysis code may be seen [in this repo](https://github.com/evannsm/2025TCST_NRFlow_Data).
-
 # Environment Setup
 1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
 2. Users may also use the environment.yml file to set up a conda environment with the necessary packages to run the code below
