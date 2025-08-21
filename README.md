@@ -2,7 +2,7 @@
 Video footage for certain flights may be seen [here](https://youtu.be/H0mwDMPMdxQ)
 # Environment Setup
 1. Users of this code must use the `/src/` folder here in a ROS2 workspace and build
-2. Users may also use the environment.yml file to set up a conda environment with the necessary packages to run the code below
+2. Users may also use the `environment.yml` file to set up a conda environment with the necessary packages to run the code below
 
 # Quadrotor Code Instructions
 ## Preliminary
@@ -26,10 +26,10 @@ MicroXRCEAgent udp4 -p 8888
 
 
 ## Using The NR Controller Computation and Offboard Publisher
-1. The length of time the algorithm runs before the land sequence begins may be changed via the variable in the **\_\_init\_\_** function at the top:   **self.time_before_land**
-2. The reference path may be changed through the **self.main_traj** variable
-3. The mass for the quadrotor may be changed for your specific hardware on the **elif not self.sim** statement in the **\_\_init\_\_** at the top. Don't change for simulation unless you change the simulation model explicitly.
-4. The thrust/throttle mapping may be changed for your specific hardware on the **get_throttle_command_from_force** and **get_force_from_throttle_command** functions. Don't change for simulation unless you change the simulation model explicitly.
+1. The length of time the algorithm runs before the land sequence begins may be changed via the variable in the `__init__` function at the top:   `self.time_before_land``
+2. The reference path may be changed through the `self.main_traj` variable
+3. The mass for the quadrotor may be changed for your specific hardware on the`elif not self.sim` statement in the `__init__` at the top. Don't change for simulation unless you change the simulation model explicitly.
+4. The thrust/throttle mapping may be changed for your specific hardware on the `get_throttle_command_from_force` and `get_force_from_throttle_command` functions. Don't change for simulation unless you change the simulation model explicitly.
 
 ### Running the controller:
 1. In another terminal tab, source the environment from the root of your ROS2 workspace: 
@@ -49,7 +49,7 @@ ros2 run quad_newton_raphson_flow nr_quad log1.lo
 source install/setup.bash
 ```
 2. Activate your conda environment in this same terminal with sourcing
-3. In *run_blimp_sim.py* there is a dictionary named **mapping** with names of controller/path pairs. Let the desired pair be called **ctrl_path_name** and run the simulation by: 
+3. In `run_blimp_sim.py` there is a dictionary named **mapping** with names of controller/path pairs. Let the desired pair be called `ctrl_path_name` and run the simulation by: 
 ```
 ros2 run blimp_mpc_fbl_nr run_blimp_sim hardware_<\**ctrl_path_name**\>_circle_horz log1.log
 ```
