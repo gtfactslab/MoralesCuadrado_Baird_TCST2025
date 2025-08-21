@@ -1,13 +1,13 @@
 # Code for the TCST 2025 Submission: "Lightweight Tracking Control for Computationally Constrained Aerial Systems with Newton-Raphson Flow"
 Video footage for certain flights may be seen [here](https://youtu.be/H0mwDMPMdxQ)
 # Environment Setup
-1. Users of this code must use the /src/ folder here in a ROS2 workspace and build
+1. Users of this code must use the `/src/` folder here in a ROS2 workspace and build
 2. Users may also use the environment.yml file to set up a conda environment with the necessary packages to run the code below
 
 # Quadrotor Code Instructions
 ## Preliminary
 1. Follow the instructions ([here](https://docs.px4.io/main/en/ros/ros2_comm.html)) to set up the PX4 Autopilot Stack, ROS2, Micro XRCE-DDS Agent & Client, and build a ROS2 workspace with the necessary px4 communication repos
-2. In the same workspace with the communication folders as above, go to the /src/ folder and clone this repository
+2. In the same workspace with the communication folders as above, go to the `/src/` folder and clone this repository
 3. In the root of the workspace, build everything as:
 ```
 colcon build --symlink-install
@@ -54,7 +54,7 @@ source install/setup.bash
 ros2 run blimp_mpc_fbl_nr run_blimp_sim hardware_<\**ctrl_path_name**\>_circle_horz log1.log
 ```
 ## Citing this Work:
-Please  UPDATE THESE: [cite this paper]() ([arxiv version here]()).
+Please see arxiv preprint [here](https://arxiv.org/abs/2508.14185)  
 
 ## Authors:
 Evanns G. Morales-Cuadrado, Luke Baird, Yorai Wardi, Samuel Coogan
